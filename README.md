@@ -55,14 +55,6 @@ Before you begin, make sure you have the following:
 6. Create one more secret for SONAR_HOST_URL as the name and Enter the URL "https://sonarqube.madgicaltechdom.com" as the value.
 
 That's it! Github Actions will now run a SonarQube analysis on every push to the main branch. You can view the results of the analysis in SonarQube by navigating to the project dashboard.
-
-# Reference 
-
-I got information from the below articles:
-
-  - [Deploy Firebase functions using GitHub Actions](https://davelms.medium.com/deploy-firebase-functions-using-github-actions-7dbafbd4df77)
-  - [Changed Files](https://github.com/marketplace/actions/changed-files)
-  - [Manual Workflow Approval](https://github.com/marketplace/actions/manual-workflow-approval)
   
 ## License
 
