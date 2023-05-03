@@ -1,8 +1,8 @@
-# How to Integrate SonarQube with Github Actions  
+# How to Integrate SonarQube with Github repo using GitHub Actions  
 
-This document outlines the steps to integrate SonarQube with Github Actions, allowing you to automate code analysis and quality checks for your repository.
+This document outlines the steps to integrate SonarQube with GitHub Actions, allowing you to automate code analysis and quality checks for your repository.
 
-Step by step user guide [video]().
+Step by step user guide [video](https://drive.google.com/file/d/1rNEKbCRrVD_9dRz_SdmfCImr0dpMJgKa/view?usp=sharing).
 
 ## Prerequisites
 
