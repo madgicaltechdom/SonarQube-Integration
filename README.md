@@ -14,7 +14,7 @@ Before you begin, make sure you have the following:
   - A [GitHub App](https://docs.github.com/en/apps/creating-github-apps/creating-github-apps/creating-a-github-app).
   - GitHub App [permissions](https://docs.sonarqube.org/latest/devops-platform-integration/github-integration/#:~:text=Grant%20access%20for%20the%20following%C2%A0Repository%20permissions%3A%C2%A0)
   
-NOTE: Do not worry about the GitHub App, permissions, and SonaeQube Account these are already created and configured.
+NOTE: Do not worry about the GitHub App, permissions, and SonarQube Account these are already created and configured.
   
 # Step for integration
 
