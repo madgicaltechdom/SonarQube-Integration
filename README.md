@@ -17,20 +17,8 @@ Before you begin, make sure you have the following:
 NOTE: Do not worry about the GitHub App, permissions, and SonaeQube Account these are already created and configured.
   
 # Step for integration
-  
-## Step 1: Configure Github Actions
 
-1. Navigate to your repository in Github and click the "Actions" tab.
-
-2. Click the "New workflow" button and select "Set up a workflow yourself".
-
-3. Give your workflow a name and create a new YAML file.
-
-4. Copy the YML code from this repo to your YML file.
-
-5. Copy the "sonar-project.properties" file in your repo and provide your project key and project name.
-
-## Step 2: Add SonarQube token and host url to Github Secrets
+## Step 1: Add SonarQube token and host url to Github Secrets
 
 1. Navigate to your repository in Github and click the "Settings" tab.
 
@@ -44,15 +32,25 @@ NOTE: Do not worry about the GitHub App, permissions, and SonaeQube Account thes
 
 6. Create one more secret for SONAR_HOST_URL as the name and Enter the URL "https://sonarqube.madgicaltechdom.com" as the value.
 
-## Step 3: Check SonarQube is integrated or not
+## Step 2: Configure Github Actions
+
+1. Navigate to your repository in Github and click the "Actions" tab.
+
+2. Click the "New workflow" button and select "Set up a workflow yourself".
+
+3. Give your workflow a name and create a new YAML file.
+
+4. Copy the YML code from this repo to your YML file.
+
+5. Copy the "sonar-project.properties" file in your repo and provide your project key and project name(don't use others project key). That's it! Github Actions will now run a SonarQube analysis on every push to the main branch.
+
+## Step 3: Check results of the analysis in SonarQube
 
 1. Navigate to https://sonarqube.madgicaltechdom.com in your web browser.
 
 2. Log in to SonarQube with the admin credentials.
 
 3. In the Projects you will see that your project is integrated.
-
-That's it! Github Actions will now run a SonarQube analysis on every push to the main branch. You can view the results of the analysis in SonarQube by navigating to the project dashboard.
   
 ## License
 
