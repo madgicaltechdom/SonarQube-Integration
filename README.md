@@ -22,15 +22,15 @@ NOTE: Do not worry about the GitHub App, permissions, and SonarQube Account thes
 
 1. Navigate to your repository in Github and click the "Settings" tab.
 
-2. Click "Secrets" in the sidebar.
+2. Click "Secrets and variables" in the sidebar then select Actions.
 
-3. Click "New secret" and enter SONAR_TOKEN as the name.
+3. Click "New repository secret" button and enter SONAR_TOKEN as the name.
 
-4. Enter the token generated for your SonarQube project in step 1 as the value.
+4. Enter the SonarQube token as the value that has been shared with you on Passbolt.
 
 5. Click "Add secret" to save. 
 
-6. Create one more secret for SONAR_HOST_URL as the name and Enter the URL "https://sonarqube.madgicaltechdom.com" as the value.
+6. Create one more secret for SONAR_HOST_URL as the name and Enter this URL "https://sonarqube.madgicaltechdom.com" as the value.
 
 ## Step 2: Configure Github Actions
 
@@ -38,7 +38,7 @@ NOTE: Do not worry about the GitHub App, permissions, and SonarQube Account thes
 
 2. Click the "New workflow" button and select "Set up a workflow yourself".
 
-3. Give your workflow a name and create a new YAML file.
+3. Give your workflow a name and create a new YML file.
 
 4. Copy the YML code from this repo to your YML file.
 
