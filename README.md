@@ -4,6 +4,8 @@ This document outlines the steps to integrate SonarQube with GitHub Actions, all
 
 Step by step user guide [video](https://drive.google.com/file/d/1rNEKbCRrVD_9dRz_SdmfCImr0dpMJgKa/view?usp=sharing).
 
+NOTE: This SonarQube integration will work on a single branch at a time.
+
 ## Prerequisites
 
 Before you begin, make sure you have the following:
