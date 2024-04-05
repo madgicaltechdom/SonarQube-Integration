@@ -17,12 +17,13 @@ Before you begin, make sure you have the following:
   - GitHub App [permissions](https://docs.sonarqube.org/latest/devops-platform-integration/github-integration/#:~:text=Grant%20access%20for%20the%20following%C2%A0Repository%20permissions%3A%C2%A0)(for SonarQube setup).
   - AWS SonarQube machine(to create it use SonarQube Bitnami AMI).
   - A domain(for SonarQube setup).
+  - [Configure SSL with the Bncert tool](https://www.youtube.com/watch?v=BF4OlDwPZds&t=185s). 
   
 # Step for integration
 
 ## Step 1: Set up SonarQube
 
-1. Navigate to https://sq.bswlog.co.in in your web browser.
+1. Navigate to your domain in your web browser.
 
 2. Log in to SonarQube with the admin credentials.
 
@@ -77,10 +78,6 @@ Before you begin, make sure you have the following:
 ```
 sudo cat /home/bitnami/bitnami_credentials
 ```
-
-# References
-
-- [Configure SSL with the Bncert tool](https://www.youtube.com/watch?v=BF4OlDwPZds&t=185s). 
   
 ## License
 
