@@ -1,3 +1,11 @@
+**Hook:** SonarQube integration requires seamless code quality checks.
+
+**Body:** SonarQube integration for continuous code quality monitoring.
+
+**Closer:** Integrated code quality checks in CI/CD pipeline.
+
+---
+
 # How to Integrate SonarQube with Github repo using GitHub Actions  
 
 This document outlines the steps to integrate SonarQube with GitHub Actions, allowing you to automate code analysis and quality checks for your repository.
